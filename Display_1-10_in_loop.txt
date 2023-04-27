@@ -1,0 +1,13 @@
+Display 1 to 10 in loop
+
+using System;
+namespace code
+{
+class program
+{
+for(int i=o; i<=10; i++)
+{
+Console.WriteLine(i);
+}
+}
+}
