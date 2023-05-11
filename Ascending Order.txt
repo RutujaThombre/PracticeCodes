@@ -1,0 +1,35 @@
+Ascending Order
+
+
+using System;
+namespace name ascending
+{
+class program
+{
+string s ,char c;
+Console.WriteLine("Enter the name");
+c = Console.ReadLine();
+char[]arr = s.ToCharArray();
+for(int i=0;i<arr.length;i++)
+{
+Console.WriteLine("arr[i]");
+}
+for(j=0;j<arr.length-1;j++)
+{
+for(i=0;i<arr.length-1;i++)
+{
+if(arr[i]>arr[i+1])
+{
+c = arr[i+1];
+arr[i+1] = arr[i];
+arr[i]=c;
+{
+Console.WriteLine("name in ascending order is: ");
+foreach(char ch in arr)
+{
+Console.WriteLine(ch);
+}
+Console.ReadLine();
+}
+}
+}
